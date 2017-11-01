@@ -14,7 +14,7 @@
           Home
         </ons-list-item>
         <ons-list-item onclick="fn.load('add.html')" tappable>
-          Settings
+          Add Item
         </ons-list-item>
       </ons-list>
     </ons-page>
@@ -57,6 +57,16 @@
         Add Items
       </div>
     </ons-toolbar>
+    <div style="text-align: center; margin-top: 30px;">
+    <p>
+      <ons-input id="item" style="width:90%"></ons-input>
+    </p>
+    
+    <p style="margin-top: 30px;">
+      <ons-button onclick="additem()">Add Item</ons-button>
+    </p>
+  </div>
+
   </ons-page>
 </template>
 
